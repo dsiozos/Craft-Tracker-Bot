@@ -4,7 +4,7 @@ import logging
 import json
 import os
 
-TOKEN = asdf  # Your bot token here or env var
+TOKEN = os.getenv("MY_TOKEN_KEY")  # Your bot token here or env var
 CRAFT_CHANNEL_ID = 1377981360618209332  # Your craft channel ID
 
 ROLE_EMOJI_MAP = {
